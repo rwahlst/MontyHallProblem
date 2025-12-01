@@ -81,9 +81,5 @@ class Door():
         self.Win = isWin
         self.Revealed = False
 
-    def __str__(self):
-        string = "Win: " + str(self.Win) + "\nRevealed: " + str(self.Revealed)
-        return string
-
 
 mh = MontyHall()
